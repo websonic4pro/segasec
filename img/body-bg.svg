@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="4855px" viewBox="0 0 1920 4855" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>849110CB-61A0-4305-8690-10E32BAA0A9A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#5D606A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="9.33706373%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#17275A" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#162552" offset="28.0536813%"></stop>
+            <stop stop-color="#121314" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="ui-27/3/19" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage" transform="translate(0.000000, -602.000000)">
+            <g id="Group-38">
+                <g id="Body-bg" transform="translate(0.000000, 602.000000)">
+                    <rect id="Rectangle-Copy" fill="url(#linearGradient-1)" x="0" y="0" width="1920" height="3954"></rect>
+                    <rect id="Rectangle-Copy" fill="url(#linearGradient-2)" x="0" y="0" width="1920" height="4855"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

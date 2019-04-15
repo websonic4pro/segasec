@@ -1,0 +1,158 @@
+.hp-step-1-section{
+	padding-left: 69px;
+	padding-right: 69px;
+	position: relative;
+	z-index: 2;
+}
+
+.hp-step-2-section{
+	padding: 500px 69px;
+	position: relative;
+	margin-top: -400px;
+	margin-bottom: -500px;
+
+	&:before{
+		content: '';
+		display: block;
+		width: 1920px;
+		height: 100%;
+		clip-path: polygon(0 0, 100% 500px, 100% 100%, 0 calc(100% - 500px));
+		background: linear-gradient(to bottom, #f8f8fa, #efeef3);
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.section-inner{
+		position: relative;
+		z-index: 2;
+	}
+}
+
+.hp-step-3-section{
+	padding-top: 400px;
+	position: relative;
+
+	&:after{
+		content: '';
+		display: block;
+		width: 1920px;
+		height: 286px;
+		background: linear-gradient(358deg, #17275a, #121314);
+		opacity: .48;
+		clip-path: polygon(1455px 0, 100% 0, 100% 100%, 0% 100%);
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.section-inner{
+		position: relative;
+		z-index: 5;
+	}
+}
+
+.hp-step-block{
+	display: flex;
+	align-items: flex-start;
+	width: 100%;
+	position: relative;
+
+	.block-image{
+		img{
+			display: block;
+		}
+	}
+
+	.block-content{
+		margin-left: 150px;
+		max-width: 570px;
+	}
+
+	&.hp-step-1{
+		.block-image{
+			width: 50.95%;
+			padding-top: 85px;
+			margin-left: -4.6%;
+			// margin-right: -13.42%;
+
+			img{
+				width: 114.868%;
+			}
+		}
+	}
+
+	&.hp-step-2{
+		.block-image{
+			width: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			img{
+				display: block;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+
+		.block-content{
+			padding-top: 100px;
+		}
+	}
+
+	&.hp-step-3{
+		flex-direction: column;
+
+		.block-image{
+			margin-top: -140px;
+			align-self: flex-end;
+			margin-right: 7.3vw;
+			margin-bottom: -60px;
+
+			img{
+				max-width: 100%;
+				display: block;
+			}
+		}
+
+		@media screen and (max-width: 1699px){
+			.block-image{
+				max-width: 75%;
+				margin-right: 30px;
+			}
+		}
+	}
+}
+
+.hp-section-caption{
+	margin-bottom: 12px;
+	position: relative;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	.sc-number{
+		font-size: 100px;
+		font-weight: 900;
+		line-height: .55;
+		margin-bottom: 25px;
+		color: rgba(#7f8fa6, .16);
+
+		&.light{
+			color: rgba(#fff, .09);
+		}
+	}
+
+	.sc-title{
+		font-size: 30px;
+		line-height: 1.83;
+		font-weight: 500;
+		display: inline-flex;
+		align-items: center;
+		text-transform: uppercase;
+	}
+}

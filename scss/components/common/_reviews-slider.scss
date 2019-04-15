@@ -1,0 +1,80 @@
+.reviews-slider{
+	width: calc(100% + 60px);
+	margin: -30px;
+
+	.slide{
+		padding: 30px;
+	}
+}
+
+.reviews-slider-wrapper{
+	position: relative;
+
+	&:before,
+	&:after{
+		content: '';
+		display: block;
+		width: 342px;
+		height: 357px;
+		position: absolute;
+	}
+
+	&:before{
+		top: -280px;
+		right: -181px;
+		background: url(../img/quotes-big.svg) no-repeat center center;
+	}
+
+	&:after{
+		left: -134px;
+		bottom: -203px;
+		background: url(../img/quotes-big-reverse.svg) no-repeat center center;
+	}
+}
+
+.review-card{
+	position: relative;
+	background: linear-gradient(127deg, #f8f8fa, #efeef3);
+	box-shadow: 0 20px 22px rgba(#000, .18);
+	border-radius: $r;
+	padding: 71px 110px 50px 123px;
+
+	&:before{
+		content: '';
+		display: block;
+		width: 15px;
+		height: 100%;
+		border-radius: $r;
+		background: linear-gradient(to left, #fbd249, #f5a623);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	.card-content{
+		margin-bottom: 20px;
+
+		p{
+			font-size: 26px;
+			line-height: 1.5;
+			font-weight: 500;
+			color: $text-color;
+		}
+	}
+
+	.card-footer{
+		padding: 8px 0;
+
+		.author{
+			text-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
+			font-size: 16px;
+			line-height: 1.3;
+			text-transform: uppercase;
+			color: #70849a;
+		}
+	}
+
+	@media screen and (max-width: 1599px){
+		padding: 50px 80px 50px 95px;
+	}
+}

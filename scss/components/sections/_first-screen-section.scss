@@ -1,0 +1,53 @@
+.first-screen-section{
+	position: relative;
+	height: 992px;
+
+	&:before{
+		content: '';
+		display: block;
+		width: 1920px;
+		height: 992px;
+		background: url(../img/backgrounds/first-screen-arrow.svg) no-repeat center bottom;
+		position: absolute;
+		left: 50%;
+		top: 0;
+		transform: translateX(-50%);
+		z-index: 2;
+		opacity: .2;
+		background-blend-mode: multiply;
+	}
+
+	.section-inner{
+		position: relative;
+		z-index: 5;
+		padding-top: 290px;
+		color: #fff;
+
+		p{
+			font-size: 28px;
+			line-height: 40px;
+			text-align: center;
+			font-weight: 300;
+			margin-bottom: 84px;
+		}
+	}
+
+	.first-screen-video{
+		// width: 1920px;
+		// display: none;
+		height: 992px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		clip-path: polygon(100% 0, 100% 574px, 50% 990px, 0 574px, 0 0);
+		position: absolute;
+		left: 50%;
+		top: 0;
+		transform: translateX(-50%);
+
+		video{
+			display: block;
+			height: 100%;
+		}
+	}
+}

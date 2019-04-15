@@ -1,0 +1,36 @@
+.we-offer-section{
+	padding: 38px 0 200px;
+}
+
+.we-offer-block{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.block-image{
+		margin-bottom: 20px;
+
+		img{
+			display: block;
+		}
+	}
+
+	.block-caption{
+		font-size: 38px;
+		line-height: 1.45;
+		color: $primary;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		text-align: center;
+		margin-bottom: 2px;
+	}
+
+	p{
+		color: #fff;
+		max-width: 460px;
+		font-size: 24px;
+		line-height: 1.42;
+		text-align: center;
+	}
+}

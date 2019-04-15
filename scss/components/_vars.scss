@@ -1,0 +1,20 @@
+// Fonts
+$main-font: 'Museo Sans', Arial, sans-serif;
+$second-font: 'Roboto';
+
+// Colors
+$orange: #f5a623;
+$blue: #0e1547;
+
+$gray: #393939;
+
+$text-color: $gray;
+$text-link: #eaa13a;
+
+$primary: $orange;
+
+// Params
+$body-bg: url(../img/body-bg.svg); // site background
+$t: .3s; // animation duration
+$r: 4px; // default border radius
+$shadow: 0 7px 30px rgba(#000, .3); // default card shadow

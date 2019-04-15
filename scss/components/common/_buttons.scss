@@ -1,0 +1,69 @@
+.btn{
+	border: 0;
+	color: $blue;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+	font-size: 14.5px;
+	line-height: 20px;
+	background: linear-gradient(258deg, #eaa13a 0%, #f6cf6c 49.99%, #f6cf6c 50%, #eaa13a 100%);
+	background-size: 200%;
+	background-position: left top;
+	font-family: $main-font;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	transition: all $t;
+	cursor: pointer;
+	min-height: 57px;
+	border-radius: $r;
+	text-transform: uppercase;
+	padding: 10px 45px;
+
+	&:hover{
+		background-position: right bottom;
+	}
+
+	i{
+		display: block;
+
+		&.icon-quotes{
+			transform: translateY(-1px);
+		}
+
+		&:last-child{
+			margin-left: 7px;
+		}
+
+		&:first-child{
+			margin-right: 7px;
+		}
+	}
+
+	span{
+		display: block;
+		text-align: center;
+	}
+
+	&.btn-small{
+		min-height: 40px;
+		border-radius: 20px;
+		padding: 10px 20px;
+		background: linear-gradient(to bottom, #f6cf6c, #eaa13a);
+		font-family: $second-font;
+		font-weight: 400;
+		color: #fff;
+		font-size: 16px;
+		font-style: normal;
+		text-transform: none;
+	}
+
+	&.btn-medium-paddings{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	&.btn-fullwidth{
+		width: 100%;
+	}
+}

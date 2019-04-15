@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="452px" viewBox="0 0 1920 452" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>07446717-1B8C-42E2-998D-5248DA7C1110</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="1920 694 960 1053.13466 0 697 0 602 960 953 1920 602"></polygon>
+    </defs>
+    <g id="ui-27/3/19" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage" transform="translate(0.000000, -602.000000)">
+            <g id="Group-38">
+                <g id="Group-46">
+                    <g id="VideoStatic-+-Rectangle-+-Rectangle-Mask-Copy">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Header-bg-arrow" fill="#FFFFFF" opacity="0.255673363" style="mix-blend-mode: overlay;" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

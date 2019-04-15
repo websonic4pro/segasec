@@ -1,0 +1,18 @@
+.safeguard-section{
+	background-image: linear-gradient(to bottom, #f8f8fa, #efeef3);
+	padding: 130px 0 130px;
+	background-attachment: fixed;
+
+	.section-inner{
+		padding: 0 70px;
+	}
+
+	.section-caption{
+		margin-bottom: 130px;
+
+		.sc-subtitle{
+			max-width: 795px;
+			margin: 0 auto;
+		}
+	}
+}
